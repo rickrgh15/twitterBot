@@ -5,7 +5,7 @@ on:
     branches:
     - master
 env:
-  FUNC_APP_NAME: bottwitter
+  FUNC_APP_NAME: BotTwitter
 
 jobs:
   build-and-deploy:
