@@ -17,7 +17,7 @@ jobs:
     - name: 'Login via Azure CLI'
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZUREBOTTWITTER }}
+        creds: ${{ secrets.SECRETO_AZURE }}
       
     - name: 'Set Node version'
       uses: actions/setup-node@v1
